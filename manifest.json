@@ -1,0 +1,19 @@
+{
+  "name": "weather",
+  "description": "Returns current weather and forecast for a location. Use latitude/longitude coordinates.",
+  "version": "0.1.0",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "latitude": {
+        "type": "string",
+        "description": "Latitude of the location (e.g. 47.37 for Zurich)"
+      },
+      "longitude": {
+        "type": "string",
+        "description": "Longitude of the location (e.g. 8.55 for Zurich)"
+      }
+    },
+    "required": ["latitude", "longitude"]
+  }
+}
